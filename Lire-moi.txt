@@ -1,0 +1,12 @@
+Ce projet explique d'une manière très simplifiée le concept de l'Injection des Dépendances. 
+Elle montre comment créer une application fermée à la modification et ouverte à l'extension. 
+Autrement dit, comment faire évoluer une application sans toucher le code source en s'appuiyant sur une conception basée sur le couplage faible (Utilisation des interfaces). 
+Pour faire l'injection des dépendances, elle présente trois solution : 
+- Injection des dépendances par instanciation statique (new) 
+- Injection des dépendances par instanciation dynamique (Programmation par réflexion ou Intro-Spection) 
+- Injection des dépendance en utilisant Spring IOC avec ses deux version XML et Annotations. 
+Ce concepts est très important pour comprendre le principe de l'Inversion du contrôle qui est fondamentale dans JEE pour permettre au développeur de se concentrer sur le code métier (Exigences fonctionnelles),
+et déléguer aux Framework IOC comme Spring ou EJB les exigences techniques (Gestion de transaction, Sécurité, Persistance de données ou ORM, Performances, etc...) A mon avis, pour bien maîtriser l'architecture JEE,
+il faudrait commencer par cet exemple. 
+Bonne lecture à tous.
+La vidéo youtue est sur ce lien : https://www.youtube.com/watch?v=jmMT4HiTrKk&list=PLxr551TUsmAqqIyqQxioF5EGE-Z4E54cL&index=2
